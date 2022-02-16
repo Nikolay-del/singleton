@@ -1,0 +1,46 @@
+.promo {
+    padding-top: 46px;
+    padding-bottom: 119px;
+}
+
+.promo__container {
+    background: url("../img/promo-illustration.svg") no-repeat;
+    background-position: right 19px top 14px;
+}
+
+.promo__heading {
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -3.6px;
+    width: 49%;
+    margin-bottom: 37px;
+}
+
+.promo__paragraph {
+    margin-bottom: 46px;
+    width: 47%;
+}
+
+.promo__input {
+    position: relative;
+    border-radius: 5px;
+    padding: 12px 0 12px 49px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    color: #a9abbd;
+    width: 23%;
+    margin-right: 16px;
+    background-color: #f8f8f8;
+    background-image: url("../img/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 17px center;
+
+    &:focus {
+        outline-color: darken(#f8f8f8, 30%);
+    }
+}
+
+.promo__button {
+    border-radius: 5px;
+}

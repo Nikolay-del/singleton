@@ -10,7 +10,7 @@
 node_modules/
 build/
 npm-debug.*
-src/compontents/
+src/components/
 src/css/*.css
 src/css/*.map
 Thumbs.db
