@@ -1,0 +1,94 @@
+.tariffs {
+    margin-bottom: 99px;
+}
+
+.tariffs__heading {
+    line-height: 78px;
+    width: 58%;
+    margin-bottom: 62px;
+}
+
+.tariffs__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4%;
+    margin-bottom: 48px;
+}
+
+.tariffs__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid #e1e4eb;
+
+    &:nth-child(even) {
+        background: $black;
+        color: $white;
+
+        & .tariffs__button {
+            border: none;
+            background: $violet;
+            color: $white;
+
+            &:hover {
+                background: lighten($violet, 5%);
+            }
+        }
+    }
+}
+
+.tariffs__name {
+    font-size: 22px;
+    line-height: 32px;
+    opacity: 0.4;
+    margin-bottom: 21px;
+}
+
+.tariffs__price {
+    font-size: 48px;
+    line-height: 45px;
+    letter-spacing: -1.6px;
+    margin-bottom: 45px;
+}
+
+.tariffs__month {
+    font-size: 22px;
+    line-height: 32px;
+    opacity: 0.4;
+}
+
+.tariffs__advantages {
+    display: grid;
+    text-align: center;
+    margin-bottom: 54px;
+    gap: 18px;
+}
+
+.tariffs__button {
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.36px;
+    color: $violet;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e1e4eb;
+    border-radius: 5px;
+    transition: 0.3s all ease-in;
+
+    &:hover {
+        background: $violet;
+        color: $white;
+        border: none;
+    }
+}
+
+.tariffs__paragraph {
+    opacity: 0.4;
+    width: 55%;
+}

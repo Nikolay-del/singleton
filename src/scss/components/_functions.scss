@@ -1,0 +1,47 @@
+.functions {
+    padding-top: 181px;
+    margin-bottom: 189px;
+}
+
+.functions__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.functions__wrapper{
+    width: 50%;
+}
+
+.functions__tag {
+    display: flex;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.functions__icon {
+    background-color: #ffe6df;
+    border-radius: 22px;
+    width: 65px;
+    height: 65px;
+    background-image: url("../img/puzzle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 23px;
+}
+
+.functions__heading{
+    margin-bottom: 70px;
+}
+
+.functions__button{
+    padding: 12px 52px 12px 18px;
+    background-image: url("../img/arrow-white.svg");
+    background-repeat: no-repeat;
+    background-position: right 22px center;
+
+    &:hover{
+        background-image: url("../img/arrow-white-hover.svg");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+    }
+}

@@ -21,7 +21,7 @@
     width: 47%;
 }
 
-.promo__input {
+.form-email__input {
     position: relative;
     border-radius: 5px;
     padding: 12px 0 12px 49px;
@@ -32,15 +32,17 @@
     width: 23%;
     margin-right: 16px;
     background-color: #f8f8f8;
+    font-weight: normal;
     background-image: url("../img/mail.svg");
     background-repeat: no-repeat;
     background-position: 17px center;
+    font-family: "Poppins", sans-serif;
 
     &:focus {
         outline-color: darken(#f8f8f8, 30%);
     }
 }
 
-.promo__button {
+.form-email__button {
     border-radius: 5px;
 }
